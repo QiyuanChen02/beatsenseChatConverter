@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "PersonalExtension",
+    "description": "This is an extension for myself to improve my experiences on the web",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.webtoons.com/*",
+                "https://www.beatsense.com/jinnyttyofflinechat/*"
+            ],
+            "js": ["beatsense.js"]
+        }
+    ]
+}
